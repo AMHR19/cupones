@@ -1,0 +1,26 @@
+.barraS{
+    background-color: rgb(155, 18, 3);
+    padding: 10px;
+}
+.titleS{
+    margin:auto;
+    color: white;
+}
+
+.previa{
+    background-color: rebeccapurple;
+}
+
+
+.img_vistaP{
+    width: 40%;
+    height: 40%;
+    padding: 10px;
+    margin-left: 20%; 
+    float: left;
+    /* box-shadow:10px 10px 8px rgb(168, 168, 168); */
+}
+.previa2{
+    float: right; 
+    padding: 10px;
+}

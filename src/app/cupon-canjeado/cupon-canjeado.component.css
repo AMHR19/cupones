@@ -1,0 +1,23 @@
+/*
+font-family: 'Yrsa', serif;
+font-family: 'Asap Condensed', sans-serif;
+font-family: 'Copse', serif;
+font-family: 'Do Hyeon', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Satisfy', cursive;
+--colores--
+#9D281B <- rojo
+
+*/
+
+
+.titulo{
+    background-color: rgb(136, 8, 8);
+    /* background-image: url('../../assets/img/f1.jpg'); */
+    font-family: 'Satisfy', cursive;
+    font-size: 6em;
+    color: white;
+    overflow-y: hidden !important; 
+}
+ 

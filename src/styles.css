@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files 
+
+
+font-family: 'Yrsa', serif;
+font-family: 'Asap Condensed', sans-serif;
+font-family: 'Copse', serif;
+font-family: 'Do Hyeon', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;
+--colores--
+#9D281B <- rojo
+
+*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
