@@ -14,10 +14,35 @@ font-family: 'Satisfy', cursive;
 
 .titulo{
     background-color: rgb(136, 8, 8);
+    display: flex;
+    flex-direction: column;
     /* background-image: url('../../assets/img/f1.jpg'); */
     font-family: 'Satisfy', cursive;
     font-size: 6em;
     color: white;
     overflow-y: hidden !important; 
 }
+
+
+@media screen and (max-width: 274px) and (orientation:portrait) {
+    .titulo{
+        background-color: rgb(136, 8, 8);
+        /* background-image: url('../../assets/img/f1.jpg'); */
+        font-family: 'Satisfy', cursive;
+        font-size: 3rem;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 531px) and (orientation:landscape) {
+    .titulo{
+        background-color: rgb(136, 8, 8);
+        /* background-image: url('../../assets/img/f1.jpg'); */
+        font-family: 'Satisfy', cursive;
+        font-size: 3rem;
+        color: white;
+    } 
+  }
+
+ 
  

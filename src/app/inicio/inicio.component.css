@@ -24,3 +24,26 @@
     float: right; 
     padding: 10px;
 }
+
+@media screen and (max-width: 274px) and (orientation:portrait) {
+    .img_vistaP{
+        width: 60%;
+        height: 60%;
+        /* padding: 10px; */
+        /* margin-left: 20%;  */
+        /* float: left; */
+        /* box-shadow:10px 10px 8px rgb(168, 168, 168); */
+    }
+}
+
+@media screen and (max-width: 531px) and (orientation:landscape) {
+    .img_vistaP{
+        width: 50%;
+        height: 50%;
+        /* padding: 10px;
+        margin-left: 20%; 
+        float: left; */
+        /* box-shadow:10px 10px 8px rgb(168, 168, 168); */
+    }
+}
+

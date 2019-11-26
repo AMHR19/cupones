@@ -11,13 +11,77 @@ font-family: 'Satisfy', cursive;
 
 */
 
-
 .titulo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     background-color: rgb(136, 8, 8);
+    align-items: center;
+    align-content: center;
     /* background-image: url('../../assets/img/f1.jpg'); */
     font-family: 'Satisfy', cursive;
     font-size: 6em;
     color: white;
-    overflow-y: hidden !important; 
+    /* overflow-y: hidden !important;   */
 }
+
+hr{
+    background-color: white;
+}
+
+.logo{
+    width: 30%;
+    height: 30%;
+    margin-bottom: 18%;
+    overflow: hidden;
+    /* background-color: yellowgreen; */
+}
+
+@media screen and (max-width: 274px) and (orientation:portrait) {
+    .titulo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-color: rgb(136, 8, 8);
+        align-items: center;
+        align-content: center;
+        /* background-image: url('../../assets/img/f1.jpg'); */
+        font-family: 'Satisfy', cursive;
+        font-size: 4em;
+        color: white;
+        /* overflow-y: hidden !important;   */
+    }
+    
+
+    .logo{
+        width: 30%;
+        height: 30%;
+        margin-bottom: 35%;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 531px) and (orientation:landscape) {
+    .titulo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-color: rgb(136, 8, 8);
+        align-items: center;
+        align-content: center;
+        /* background-image: url('../../assets/img/f1.jpg'); */
+        font-family: 'Satisfy', cursive;
+        font-size: 4em;
+        color: white;
+        /* overflow-y: hidden !important;   */
+    }
+    
+    .logo{
+        width: 30%;
+        height: 30%;
+        /* margin-bottom: 10%; */
+        overflow: hidden;
+    }
+  }
+
  

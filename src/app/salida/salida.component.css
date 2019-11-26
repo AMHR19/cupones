@@ -1,0 +1,35 @@
+.sal{
+    display: flex;
+    justify-content: center;
+}
+.imagen{
+    width: 45%;
+    height: 45%;
+    display: inline-block;
+}
+
+@media screen and (max-width: 274px) and (orientation:portrait) {
+    .sal{
+        display: flex;
+        justify-content: center;
+    }
+
+   .imagen{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+   }
+}
+
+@media screen and (max-width: 531px) and (orientation:landscape) {
+    .sal{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imagen{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+   }
+  }

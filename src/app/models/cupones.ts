@@ -1,6 +1,7 @@
 export class cupones{
     constructor(
-        public cantidad_cupones:number,
+        public titulo:string,
+        public descuento:string,
         public vigencia:string,
         public status:string
     ){
