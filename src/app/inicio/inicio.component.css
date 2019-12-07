@@ -11,6 +11,21 @@
     background-color: rebeccapurple;
 }
 
+.pre{
+    background-color: rgb(155, 18, 3);
+    padding: 20px;
+    float: left;
+}
+
+.titulo{
+    color: white;
+}
+
+.qr{
+    width: 40%;
+    height: 40%;
+}
+
 
 .img_vistaP{
     width: 40%;

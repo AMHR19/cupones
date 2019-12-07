@@ -1,0 +1,29 @@
+<svg id="qr-code" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <g id="Grupo_28" data-name="Grupo 28">
+    <g id="Grupo_27" data-name="Grupo 27">
+      <path id="Trazado_70" data-name="Trazado 70" d="M160,0H0V160H160ZM128,128H32V32h96Z" fill="#fff"/>
+      <rect id="Rectángulo_25" data-name="Rectángulo 25" width="32" height="32" transform="translate(64 64)" fill="#fff"/>
+      <path id="Trazado_71" data-name="Trazado 71" d="M352,0V160H512V0ZM480,128H384V32h96Z" fill="#fff"/>
+      <rect id="Rectángulo_26" data-name="Rectángulo 26" width="32" height="32" transform="translate(416 64)" fill="#fff"/>
+      <path id="Trazado_72" data-name="Trazado 72" d="M0,512H160V352H0ZM32,384h96v96H32Z" fill="#fff"/>
+      <rect id="Rectángulo_27" data-name="Rectángulo 27" width="32" height="32" transform="translate(64 416)" fill="#fff"/>
+      <rect id="Rectángulo_28" data-name="Rectángulo 28" width="64" height="32" transform="translate(256)" fill="#fff"/>
+      <path id="Trazado_73" data-name="Trazado 73" d="M256,128h32V96h32V64H224V32H192V96h64Z" fill="#fff"/>
+      <rect id="Rectángulo_29" data-name="Rectángulo 29" width="32" height="32" transform="translate(192 128)" fill="#fff"/>
+      <path id="Trazado_74" data-name="Trazado 74" d="M320,160H288v32H192v32H320Z" fill="#fff"/>
+      <path id="Trazado_75" data-name="Trazado 75" d="M32,288H64V256H32V192H0V320H32Z" fill="#fff"/>
+      <rect id="Rectángulo_30" data-name="Rectángulo 30" width="32" height="32" transform="translate(64 192)" fill="#fff"/>
+      <path id="Trazado_76" data-name="Trazado 76" d="M192,320h64V288H224V256H160V192H128v64H96v64h32V288h64Z" fill="#fff"/>
+      <rect id="Rectángulo_31" data-name="Rectángulo 31" width="32" height="64" transform="translate(288 256)" fill="#fff"/>
+      <path id="Trazado_77" data-name="Trazado 77" d="M288,352H192v32h64v96H192v32h96V480h64V448H288Z" fill="#fff"/>
+      <rect id="Rectángulo_32" data-name="Rectángulo 32" width="32" height="32" transform="translate(192 416)" fill="#fff"/>
+      <rect id="Rectángulo_33" data-name="Rectángulo 33" width="32" height="64" transform="translate(320 352)" fill="#fff"/>
+      <path id="Trazado_78" data-name="Trazado 78" d="M480,416H384v96h32V448h64Z" fill="#fff"/>
+      <rect id="Rectángulo_34" data-name="Rectángulo 34" width="64" height="32" transform="translate(448 480)" fill="#fff"/>
+      <rect id="Rectángulo_35" data-name="Rectángulo 35" width="32" height="32" transform="translate(480 352)" fill="#fff"/>
+      <path id="Trazado_79" data-name="Trazado 79" d="M384,384h32V288H352v32h32Z" fill="#fff"/>
+      <path id="Trazado_80" data-name="Trazado 80" d="M448,224H416V192H384v32H352v32H480V224h32V192H448Z" fill="#fff"/>
+      <rect id="Rectángulo_36" data-name="Rectángulo 36" width="64" height="32" transform="translate(448 288)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

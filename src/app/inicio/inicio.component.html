@@ -7,34 +7,45 @@
     <h2 class="col-lg-6">Hola Administrador</h2>
 </div>
 
+<div class="col-lg-12 inline">
+    <div class="col-lg-6 previa">
+        <div class="col-lg-12 pre text-center">
+            <h3 class="titulo">{{tituloCupon}}</h3>
+            <!-- <h3 class="titulo">Titulo del cupón</h3> -->
 
-<div class="col-lg-8 previa">
-    <img src="../assets/img/cuponEstructura.jpg" class="img_vistaP" alt="">
-
-</div>
-<div class="col-lg-6 previa2">
-    <div class=" col-lg-12 text-center alert alert-info" role="alert">
-        Para generar el cupón, llena los siguientes campos.
+            <h1 class="titulo">{{cantidadDescuento}}</h1>
+            <!-- <hr> -->
+            <h3 class="titulo">Fecha de expiración</h3>
+            <h1 class="titulo">{{fechaVigencia}}</h1>
+            <img src="../../assets/img/qr-code.svg" class="qr" alt="">
+        </div>
     </div>
-  
 
-   <div class="form-group">
-       <form action="">
-            <h5>Ingresa el título del cupón</h5>
-            <input type="text" class="form-control col-lg-10"><br>
+    <div class="col-lg-6 previa2">
+        <div class=" col-lg-12 text-center alert alert-info" role="alert">
+            Para generar el cupón, llena los siguientes campos.
+        </div>
+        <div class="form-group">
+            <form action="">
+                <h5>Ingresa el título del cupón</h5>
+                <input type="text" class="form-control col-lg-10" [(ngModel)]="tituloCupon" name="tituloCupon"><br>
 
-            <h5>Ingresar la cantidad de descuento</h5>
-            <input type="text" class="form-control col-lg-4"> <br>
+                <h5>Ingresar la cantidad de descuento</h5>
+                <input type="text" class="form-control col-lg-4" [(ngModel)]="cantidadDescuento"
+                    name="cantidadDescuento"> <br>
 
-            <h5>Ingresar la fecha de expiración</h5>
-            <input type="date" class="form-control col-lg-4"> <br>
+                <h5>Ingresar la fecha de expiración</h5>
+                <input type="date" class="form-control col-lg-4" [(ngModel)]="fechaVigencia" name="fechaVigencia"> <br>
 
-            <h5>Cantidad de cupones a generar</h5>
-            <input type="number" class="form-control col-lg-4"> <br>
+                <h5>Cantidad de cupones a generar</h5>
+                <input type="number" class="form-control col-lg-4"> <br>
 
-            <button class="btn btn-success col-lg-2">Generar</button>
-
-       </form>
-   </div>
+                <div class="btn-group botones" role="group">
+                    <button class="btn btn-info">Seleccionar Fondo</button>
+                    <button class="btn btn-outline-success">Generar</button>
+                </div>
+            </form>
+        </div>
+    </div>
 
 </div>
