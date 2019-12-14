@@ -1,2 +1,2 @@
-export const url:String="http://20.20.0.69:3000";
+export const url:String="http://20.20.0.73:3000";
 
