@@ -12,6 +12,8 @@ import { InicioComponent } from './inicio/inicio.component';
 import { CuponVencidoComponent } from './cupon-vencido/cupon-vencido.component';
 import { CuponCanjeadoComponent } from './cupon-canjeado/cupon-canjeado.component';
 import { SalidaComponent } from './salida/salida.component';
+import { DesignCuponComponent } from './design-cupon/design-cupon.component';
+import { BancoCuponesComponent } from './banco-cupones/banco-cupones.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { SalidaComponent } from './salida/salida.component';
     InicioComponent,
     CuponVencidoComponent,
     CuponCanjeadoComponent,
-    SalidaComponent
+    SalidaComponent,
+    DesignCuponComponent,
+    BancoCuponesComponent
   ],
   imports: [
     BrowserModule,

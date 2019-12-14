@@ -32,17 +32,17 @@ hr{
 .logo{
     width: 30%;
     height: 30%;
-    margin-bottom: 18%;
+    margin-bottom: 30%;
     overflow: hidden;
     /* background-color: yellowgreen; */
 }
 
 @media screen and (max-width: 274px) and (orientation:portrait) {
     .titulo{
+        background-color: rgb(136, 8, 8);
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        background-color: rgb(136, 8, 8);
         align-items: center;
         align-content: center;
         /* background-image: url('../../assets/img/f1.jpg'); */

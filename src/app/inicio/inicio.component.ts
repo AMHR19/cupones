@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { cupones } from '../models/cupones';
-import { cuponesService } from '../services/cupones.service';
+// import { cupones } from '../models/cupones';
+// import { cuponesService } from '../services/cupones.service';
 
 
 @Component({
@@ -11,20 +11,16 @@ import { cuponesService } from '../services/cupones.service';
 })
 export class InicioComponent implements OnInit {
 
-  cupon:cupones;
-  idCupon:string;
+  // cupon:cupones;
+  // idCupon:string;
 
   constructor(
-    public _cuponesService:cuponesService
+    // public _cuponesService:cuponesService
   ) { 
-    this.cupon = new cupones('','', '', '');
+    // this.cupon = new cupones('','', '', '');
   }
 
   ngOnInit() {
   }
-
-
- 
-
 
 }
